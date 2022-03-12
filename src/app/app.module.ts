@@ -15,7 +15,7 @@ import { RouterModule } from '@angular/router';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
-      { path: '/list', component: ListComponent },
+      { path: 'list', component: ListComponent },
       { path: 'list/:index', component: ListDetailsComponent },
     ]),
   ],
